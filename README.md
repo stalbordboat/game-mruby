@@ -1,6 +1,6 @@
 ### game-mruby
 
-`game-mruby` is a build and packaging project for a customized mruby distribution used by [`Game`](https://github.com/stalbordboat/Game).
+`game-mruby` is a build and packaging repo for a customized mruby distribution used by [`Game`](https://github.com/stalbordboat/Game).
 
 ### What it does?
 
@@ -12,7 +12,7 @@
 ### Build Process
 
 ```sh
-rake
+MRUBY_CONFIG="build_config/game.rb" rake
 ```
 Or if you want to build on a specific branch:
 ```sh
